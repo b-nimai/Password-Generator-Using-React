@@ -1,11 +1,11 @@
+import PasswordGenerator from "./Components/PasswordGenerator"
 
 function App() {
   
-  
-
   return (
-    <div>
-      <h1 className="text-4xl text-green-500 text-center">Hello , Wellcome to home</h1>
+    <div className="w-full h-screen flex justify-center items-center flex-col gap-4 bg-slate-300">
+      <h1 className="text-4xl font-bold">Password Generator</h1>
+      <PasswordGenerator/>
     </div>
   )
 }
